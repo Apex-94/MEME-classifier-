@@ -18,7 +18,7 @@ import numpy as np
 
 def file_hash(filepath):
     with open(filepath, 'rb') as f:
-        return md5(f.read()).hexdigest()
+        return hashlib.md5(f.read()).hexdigest()
 
 import os
 
