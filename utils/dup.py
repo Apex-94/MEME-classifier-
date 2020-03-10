@@ -61,3 +61,4 @@ for file_indexes in duplicates[:30]:
 
 for index in duplicates:
     os.remove(file_list[index[0]])
+#https://github.com/UrviSoni/remove_duplicate_image
