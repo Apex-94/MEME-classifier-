@@ -102,7 +102,7 @@ def main():
     # with open('output', 'wb') as myfile:
     #     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
     #     wr.writerow(l)
-    np.savetxt("file_name.csv", l, delimiter=",", fmt='%s', header=header)
+    np.savetxt("output", l, delimiter=",", fmt='%s')
 
 
 main()
